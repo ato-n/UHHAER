@@ -22,7 +22,7 @@ while True:
 	second = str("{0:06b}".format(clocktime[5]))
 	daysecs = int(clocktime[3]*60*60+clocktime[4]*60+clocktime[5])
 		on_record = binclock.on_record(daysecs)
-		if clocktime[1] == 4 and clocktime[2] == 1 and aprilfool == True:
+	if clocktime[1] == 4 and clocktime[2] == 1 and aprilfool == True:
 		binclock.aprilfool()
 	
 	if int(hour[-1]):
